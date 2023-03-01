@@ -9,7 +9,8 @@ By [Wen Fan], [Max Yang], [Yifan Xing], [Nathan Lepora](https://scholar.google.c
 
 
 
-![](.github/framework.png)
+![](https://github.com/Neo-manchester/Tac-VGNN/blob/main/voronoi_graph_generation.png)
+![](https://github.com/Neo-manchester/Tac-VGNN/blob/main/vgnn_interpretability.png)
 
  Code will be released soon after ICRA 2023.
 
