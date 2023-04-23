@@ -113,14 +113,14 @@ torch-spline-conv==1.2.1
 First step, configure anaconda environment:
 
 ```
-# create anaconda env
+#create anaconda env
 conda create -n Tac-VGNN python==3.8
 conda create Tac-VGNN
 
-# change to your package location
+#change to your package location
 cd your_download_dir
 
-# run requirements.txt
+#run requirements.txt
 pip install -r requirements.txt
 ```
 
@@ -148,10 +148,10 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 Third step, install torch_geomatric and four whls:
 
 ```
-# change to torch_geometric_whls folder
+#change to torch_geometric_whls folder
 cd torch_geometric_whls
 
-# install four wheels seperately
+#install four wheels seperately
 pip install torch_cluster-1.6.0+pt112cu113-cp38-cp38-win_amd64.whl
 
 pip install torch_scatter-2.1.0+pt112cu113-cp38-cp38-win_amd64.whl
@@ -160,7 +160,7 @@ pip install torch_sparse-0.6.15+pt112cu113-cp38-cp38-win_amd64.whl
 
 pip install torch_spline_conv-1.2.1+pt112cu113-cp38-cp38-win_amd64.whl
 
-# install torch_geometric
+#install torch_geometric
 pip install torch-geometric==2.2.0
 ```
 
