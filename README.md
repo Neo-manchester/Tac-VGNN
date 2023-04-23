@@ -194,7 +194,7 @@ pip install torch-geometric==2.2.0
  
 * Unsuitable parameters can cause voronoi graph generation to fail, adjust them a few more times helps to get a better data set
  
-* Only dataset of tactip_331 (round layout) is used in graph generation, model train and test process, but it is easy to be transferred to the hexagonal tactip_127, by applying different functions provided in `lib/graph_generate.py` and `lib/voronoi_generate.py`
+* Only `data/331` (round layout) is used in graph generation, model train and test process, but it is easy to be transferred to the `data/127` (hexagonal layout), by applying different functions provided in `lib/graph_generate.py` and `lib/voronoi_generate.py`
  
 
 </p>
@@ -228,6 +228,16 @@ Tac-VGNN Supplementary Materials/pretrained_model
 
 </p>
 </details>
+
+
+# Servoing
+
+The details about how to collect raw image data and achieve tactile servoing, please look at https://github.com/nlepora/pbts-2d#readme
+
+In brief, replace the CNN prediction part of tactile servoing 2D into the Tac-VGNN part introduced in this repository
+
+
+
 
 ## License
 
