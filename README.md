@@ -232,7 +232,7 @@ Tac-VGNN Supplementary Materials/pretrained_model
 
 # Servoing
 
-The details about how to collect raw image data and achieve tactile servoing, please look at https://github.com/nlepora/pbts-2d#readme
+The details about how to achieve tactile servoing, please look at https://github.com/nlepora/pbts-2d#readme
 
 In brief, replace the CNN prediction part of tactile servoing 2D into the Tac-VGNN part introduced in this repository
 
