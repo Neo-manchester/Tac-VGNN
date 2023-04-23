@@ -83,8 +83,50 @@ Tac-VGNN
 
 # Installation
 
+Needed Dependences:
 
+```
+python==3.8.0
+numpy==1.24.1
+scipy==1.10.1
+torch==1.12.1
+pandas==1.5.3
+pytorch==1.12.0
+torchvision==0.13.0
+cudatoolkit==11.3.1
+ipykernel==6.20.2
+matplotlib==3.6.3
+opencv_python==4.7.0.68
+torch-geometric==2.2.0
+torch-cluster==1.6.0
+torch-scatter==2.1.0
+torch-sparse==0.6.15
+torch-spline-conv==1.2.1
 
+```
+
+Firstly, configure Anaconda environment:
+
+```
+# create anaconda env
+conda create -n Tac-VGNN python==3.8
+conda create Tac-VGNN
+
+# change to your own package
+cd your_download_dir
+
+# run requirements.txt
+pip install -r requirements.txt
+
+```
+
+After that, install pytorch from official site only https://pytorch.org/, previous version found here https://pytorch.org/get-started/previous-versions/
+
+!!! DO NOT USE pip to install pytorch instead of conda to prevent negtive influence for torch_geometric!!! ref:https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
+
+```
+conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
+```
 
 
 ## License
