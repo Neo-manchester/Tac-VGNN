@@ -122,7 +122,6 @@ cd your_download_dir
 
 # run requirements.txt
 pip install -r requirements.txt
-
 ```
 
 Second step, install pytorch seperately through conda:
@@ -146,7 +145,24 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 </p>
 </details>
 
+Third step, install torch_geomatric and four whls:
 
+```
+# change to torch_geometric_whls folder
+cd torch_geometric_whls
+
+# install four wheels seperately
+pip install torch_cluster-1.6.0+pt112cu113-cp38-cp38-win_amd64.whl
+
+pip install torch_scatter-2.1.0+pt112cu113-cp38-cp38-win_amd64.whl
+
+pip install torch_sparse-0.6.15+pt112cu113-cp38-cp38-win_amd64.whl
+
+pip install torch_spline_conv-1.2.1+pt112cu113-cp38-cp38-win_amd64.whl
+
+# install torch_geometric
+pip install torch-geometric==2.2.0
+```
 
 
 
