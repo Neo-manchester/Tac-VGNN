@@ -105,14 +105,14 @@ torch-spline-conv==1.2.1
 
 ```
 
-Firstly, configure Anaconda environment:
+First step, configure anaconda environment:
 
 ```
 # create anaconda env
 conda create -n Tac-VGNN python==3.8
 conda create Tac-VGNN
 
-# change to your own package
+# change to your package location
 cd your_download_dir
 
 # run requirements.txt
@@ -120,13 +120,27 @@ pip install -r requirements.txt
 
 ```
 
-After that, install pytorch from official site only https://pytorch.org/, previous version found here https://pytorch.org/get-started/previous-versions/
-
-!!! DO NOT USE pip to install pytorch instead of conda to prevent negtive influence for torch_geometric!!! ref:https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
+Second step, install pytorch from official site only https://pytorch.org/ 
 
 ```
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
+
+<details><summary> __NOTE__ </summary>
+<p>
+
+* To fit your own OS and cuda, previous pytorch version found here https://pytorch.org/get-started/previous-versions/
+ 
+* DO NOT use pip to install pytorch instead of conda to prevent negtive influence for torch_geometric!!! 
+ 
+ ref:https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
+
+ 
+</p>
+</details>
+
+
+
 
 
 ## License
