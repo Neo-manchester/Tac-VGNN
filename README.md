@@ -82,7 +82,8 @@ Tac-VGNN
 
 # Installation
 
-Needed Dependences:
+<details><summary> Needed Dependences: </summary>
+<p>
 
 ```
 python==3.8.0
@@ -104,6 +105,11 @@ torch-sparse==0.6.15
 torch-spline-conv==1.2.1
 
 ```
+
+</p>
+</details>
+
+
 
 First step, configure anaconda environment:
 
