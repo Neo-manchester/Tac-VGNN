@@ -141,7 +141,6 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
  
    ref: https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
 
- 
 </p>
 </details>
 
@@ -163,6 +162,20 @@ pip install torch_spline_conv-1.2.1+pt112cu113-cp38-cp38-win_amd64.whl
 #install torch_geometric
 pip install torch-geometric==2.2.0
 ```
+
+<details><summary> __NOTE!!!__ </summary>
+<p>
+ 
+* Prefer to install torch_geometric from official site https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html 
+
+* To fit your own OS and cuda, other torch_geometric whls found here https://pytorch-geometric.com/whl/
+ 
+* DO NOT install torch_geometric BEFORE whls to prevent negtive influence for torch_geometric!!! 
+ 
+
+</p>
+</details>
+
 
 
 
