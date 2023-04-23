@@ -56,7 +56,6 @@ Tac-VGNN
 |—— data
     |—— 127
     |—— 331
-
 ```
 
 <details><summary> __WHAT DO THOSE PARTS WORK FOR?__ </summary>
@@ -183,7 +182,10 @@ pip install torch-geometric==2.2.0
 # Workflow
 
 * Open the whole package in VSCode
-* Run `tactip_(127/331)_graph_voronoi_setup.ipynb` to learn about how voronoi graph generated from and tune the parameters
+* Run `1_parameter_setup/tactip_(127/331)_graph_voronoi_setup.ipynb` to learn about how voronoi graph generated from
+* Run `2_voronoi_graph_generation/voronoi_graph_generation.ipynb` to build train/val and test datasets based on raw image data
+* Run `3_model_evaluation/gnn_voronoi_train.ipynb` to train the Tac-VGNN model and save the best trained model
+* Run `3_model_evaluation/gnn_voronoi_test.ipynb` to evaluate the trained Tac-VGNN model and plot the results
 
 
 
