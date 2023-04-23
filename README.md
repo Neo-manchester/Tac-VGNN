@@ -189,10 +189,32 @@ pip install torch-geometric==2.2.0
 
 # Supplementary
 
-Two pretrained models and datasets have been uploaded on Google Drive for those who lack for interest on self-dataset generation and self-model training.
+Two pretrained models and datasets have been uploaded for those who lacks for interest on self-dataset generation or self-model training.
 
-Google Drive Link: https://drive.google.com/drive/folders/1w2GNO47Bb9tlSIMb3liFaiNoHYzuW3Ot?usp=share_link
+Google Drive Link: https://drive.google.com/drive/folders/1kSv04t3OuxpWKbccjObIN0S_cHObJkqa?usp=sharing
+```
+Tac-VGNN Supplementary Materials/pretrained_model 
+|
+|—— result_1                                 
+|   |—— train
+|   |—— test
+|
+|—— result_2                                 
+    |—— train
+    |—— test
+```
+<details><summary> __HOW TO USE?__ </summary>
+<p>
+ 
+* Replace `result_(1/2)` folder to your own `result` folder and rename it as `result` again 
 
+* Then run `3_model_evaluation/gnn_voronoi_test.ipynb` to evaluate the model performance
+ 
+* result_1 and result_2 are two different datasets
+ 
+
+</p>
+</details>
 
 ## License
 
