@@ -59,7 +59,7 @@ Tac-VGNN
 
 ```
 
-<details><summary> __What do those parts work for?__ </summary>
+<details><summary> __WHAT DO THOSE PARTS WORK FOR?__ </summary>
 <p>
 
 * 1_parameter_setup/tactip_(127/331)_graph_voronoi_setup.ipynb ：detailed examples to show how parameters tuned. 
