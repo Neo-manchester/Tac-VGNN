@@ -16,11 +16,12 @@ By [Wen Fan], [Max Yang], [Yifan Xing], [Nathan Lepora](https://scholar.google.c
  
  # Installation
  
- ```
+ To install this package on Windows, clone the repository into your own folder firstly:
  
+ ```
  git clone https://github.com/Neo-manchester/Tac-VGNN.git
- 
  ```
+
 
 
 
