@@ -187,6 +187,19 @@ pip install torch-geometric==2.2.0
 * Run `3_model_evaluation/gnn_voronoi_train.ipynb` to train the Tac-VGNN model and save the best trained model
 * Run `3_model_evaluation/gnn_voronoi_test.ipynb` to evaluate the trained Tac-VGNN model and plot the results
 
+<details><summary> __NOTE!!!__ </summary>
+<p>
+ 
+* Parameters used in `2_voronoi_graph_generation/voronoi_graph_generation.ipynb` should be pretuned in `1_parameter_setup/tactip_(127/331)_graph_voronoi_setup.ipynb`
+ 
+* Unsuitable parameters can cause voronoi graph generation to fail, adjust them a few more times helps to get a better data set
+ 
+* Only dataset of tactip_331 (round layout) is used in graph generation, model train and test process, but it is easy to be transferred to the hexagonal tactip_127, by applying different functions provided in `lib/graph_generate.py` and `lib/voronoi_generate.py`
+ 
+
+</p>
+</details>
+
 # Supplementary
 
 Two pretrained models and datasets have been uploaded for those who lacks for interest on self-dataset generation or self-model training.
@@ -210,7 +223,7 @@ Tac-VGNN Supplementary Materials/pretrained_model
 
 * Then run `3_model_evaluation/gnn_voronoi_test.ipynb` to evaluate the model performance
  
-* result_1 and result_2 are two different datasets
+* `result_1` and `result_2` are two different datasets
  
 
 </p>
