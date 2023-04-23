@@ -59,13 +59,24 @@ Tac-VGNN
 
 ```
 
-<details><summary>CLICK ME</summary>
+<details><summary> What do those parts work for? </summary>
 <p>
 
-#### We can hide anything, even code!
-
 ```
-.1_parameter_setup 
+*[ ]1_parameter_setup/tactip_(127/331)_graph_voronoi_setup.ipynb ：detailed examples to show how voronoi graph parameters tuned step by step. 
+ 
+*[ ]2_voronoi_graph_generation/voronoi_graph_generation.ipynb ：generation tutorial of voronoi graph dataset from default image data. 
+ 
+*[ ]3_model_evaluation/gnn_voronoi_(train/test).ipynb ：train and evaluation tutorials of Tac-VGNN model.
+ 
+*[ ]lib ：function libraries used for upper three steps.
+ 
+*[ ]torch_geometric_whls ：four whl files supporting for torch_geometric running.
+ 
+*[ ]result/(train/test) ：folders to store materials used in training and testing process, including train/val set, test set, best_train_model and plots.
+ 
+*[ ]data/(127/331) ：folders to store raw image data, used for tactip_(127/331)_graph_voronoi_setup.ipynb and voronoi_graph_generation.ipynb.
+ 
 ```
 
 </p>
