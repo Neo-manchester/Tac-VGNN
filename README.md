@@ -120,20 +120,22 @@ pip install -r requirements.txt
 
 ```
 
-Second step, install pytorch from official site only https://pytorch.org/ 
+Second step, install pytorch seperately through conda:
 
 ```
 conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit=11.3 -c pytorch
 ```
 
-<details><summary> __NOTE__ </summary>
+<details><summary> __NOTE!!!__ </summary>
 <p>
+ 
+* Install pytorch from official site only https://pytorch.org/ 
 
 * To fit your own OS and cuda, previous pytorch version found here https://pytorch.org/get-started/previous-versions/
  
-* DO NOT use pip to install pytorch instead of conda to prevent negtive influence for torch_geometric!!! 
+* DO NOT use 'pip' to install pytorch instead of 'conda' to prevent negtive influence for torch_geometric!!! 
  
- ref:https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
+   ref: https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
 
  
 </p>
