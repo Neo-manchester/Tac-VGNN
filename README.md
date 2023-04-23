@@ -159,7 +159,7 @@ pip install torch_sparse-0.6.15+pt112cu113-cp38-cp38-win_amd64.whl
 
 pip install torch_spline_conv-1.2.1+pt112cu113-cp38-cp38-win_amd64.whl
 
-#install torch_geometric
+#install torch_geometric in the end
 pip install torch-geometric==2.2.0
 ```
 
