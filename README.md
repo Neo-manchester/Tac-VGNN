@@ -16,11 +16,46 @@ By [Wen Fan], [Max Yang], [Yifan Xing], [Nathan Lepora](https://scholar.google.c
  
  # Installation
  
- To install this package on Windows, clone the repository into your own folder firstly:
+ Code was developed and run from Visual Studio Code in Anaconda virtual environment on Windows 11. To install this package, clone the repository into your own folder firstly:
  
  ```
  git clone https://github.com/Neo-manchester/Tac-VGNN.git
  ```
+
+The package structure is shown as:
+
+```
+Tac-VGNN                         
+|—— 1_parameter_setup                                 
+|   |—— tactip_127_graph_voronoi_setup.ipynb 
+|   |—— tactip_331_graph_voronoi_setup.ipynb
+|
+|—— 2_voronoi_graph_generation
+|   |—— voronoi_graph_generation.ipynb
+|
+|—— 3_model_evaluation
+|   |—— gnn_voronoi_train.ipynb
+|   |—— gnn_voronoi_test.ipynb
+|
+|—— lib
+|   |—— blob_extraction.py
+|   |—— graph_generate.py
+|   |—— voronoi_generate.py
+|   |—— pytorchtools.py
+|   |—— net.py
+|
+|—— torch_geometric_whls
+|
+|—— result
+|   |—— train
+|   |—— test
+|
+|—— data
+    |—— 127
+    |—— 331
+
+```
+
 
 
 
