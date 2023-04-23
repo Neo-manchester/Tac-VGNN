@@ -80,6 +80,7 @@ Tac-VGNN
 </details>
 
 
+
 # Installation
 
 <details><summary> __Needed Dependences__ </summary>
@@ -137,7 +138,7 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 
 * To fit your own OS and cuda, previous pytorch version found here https://pytorch.org/get-started/previous-versions/
  
-* DO NOT use 'pip' to install pytorch instead of 'conda' to prevent negtive influence for torch_geometric!!! 
+* DO NOT use 'pip' to install pytorch instead of 'conda' to prevent negative influence for torch_geometric!!! 
  
    ref: https://stackoverflow.com/questions/73046416/torch-geometric-error-filenotfound-could-not-find-module-conda-envs
 
@@ -170,12 +171,19 @@ pip install torch-geometric==2.2.0
 
 * To fit your own OS and cuda, other torch_geometric whls found here https://pytorch-geometric.com/whl/
  
-* DO NOT install torch_geometric BEFORE whls to prevent negtive influence for torch_geometric!!! 
+* DO NOT install torch_geometric BEFORE whls to prevent negative influence for torch_geometric!!! 
  
 
 </p>
 </details>
 
+
+
+
+# Workflow
+
+* Open the whole package in VSCode
+* Run `tactip_(127/331)_graph_voronoi_setup.ipynb` to learn about how voronoi graph generated from and tune the parameters
 
 
 
