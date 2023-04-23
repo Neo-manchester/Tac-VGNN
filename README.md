@@ -187,6 +187,11 @@ pip install torch-geometric==2.2.0
 * Run `3_model_evaluation/gnn_voronoi_train.ipynb` to train the Tac-VGNN model and save the best trained model
 * Run `3_model_evaluation/gnn_voronoi_test.ipynb` to evaluate the trained Tac-VGNN model and plot the results
 
+# Supplementary
+
+Two pretrained models and datasets have been uploaded on Google Drive for those who lack for interest on self-dataset generation and self-model training.
+
+Google Drive Link: https://drive.google.com/drive/folders/1w2GNO47Bb9tlSIMb3liFaiNoHYzuW3Ot?usp=share_link
 
 
 ## License
