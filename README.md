@@ -82,7 +82,7 @@ Tac-VGNN
 
 # Installation
 
-<details><summary> Needed Dependences: </summary>
+<details><summary> __Needed Dependences__ </summary>
 <p>
 
 ```
@@ -103,7 +103,6 @@ torch-cluster==1.6.0
 torch-scatter==2.1.0
 torch-sparse==0.6.15
 torch-spline-conv==1.2.1
-
 ```
 
 </p>
