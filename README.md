@@ -14,18 +14,21 @@ By [Wen Fan], [Max Yang], [Yifan Xing], [Nathan Lepora](https://scholar.google.c
 
  Code will be released soon after ICRA 2023.
  
- # Installation
+ # Download
  
- Code was developed and run from Visual Studio Code in Anaconda virtual environment on Windows 11. To install this package, clone the repository into your own folder firstly:
+ Code was developed and run from Visual Studio Code in Anaconda virtual environment on Windows 11. 
+ 
+ To install this package, clone the repository into your own folder firstly:
  
  ```
  git clone https://github.com/Neo-manchester/Tac-VGNN.git
  ```
 
-The package structure is shown as:
+After then, the main parts of download package structure are shown as below:
 
 ```
-Tac-VGNN                         
+Tac-VGNN   
+|
 |—— 1_parameter_setup                                 
 |   |—— tactip_127_graph_voronoi_setup.ipynb 
 |   |—— tactip_331_graph_voronoi_setup.ipynb
@@ -55,6 +58,21 @@ Tac-VGNN
     |—— 331
 
 ```
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+```
+.1_parameter_setup 
+```
+
+</p>
+</details>
+
+
+# Installation
 
 
 
