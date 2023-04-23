@@ -16,9 +16,11 @@ By [Wen Fan], [Max Yang], [Yifan Xing], [Nathan Lepora](https://scholar.google.c
  
  # Installation
  
- '''
+ ```
+ 
  git clone https://github.com/Neo-manchester/Tac-VGNN.git
- '''
+ 
+ ```
 
 
 
