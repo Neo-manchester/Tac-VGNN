@@ -112,7 +112,7 @@ torch-spline-conv==1.2.1
 
 First step, configure anaconda environment:
 
-```
+```shell
 #create anaconda env
 conda create -n Tac-VGNN python==3.8
 conda create Tac-VGNN
