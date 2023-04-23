@@ -75,7 +75,6 @@ Tac-VGNN
 * result/(train/test) ：folders for train/test materials, including train/val set, test set, best_train_model and plots.
  
 * data/(127/331) ：raw image data for graph_voronoi_setup.ipynb and voronoi_graph_generation.ipynb.
- 
 
 </p>
 </details>
@@ -93,6 +92,7 @@ torch==1.12.1
 pandas==1.5.3
 pytorch==1.12.0
 torchvision==0.13.0
+torchaudio==0.12.0
 cudatoolkit==11.3.1
 ipykernel==6.20.2
 matplotlib==3.6.3
@@ -129,7 +129,7 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0 cudatoolkit
 <details><summary> __NOTE!!!__ </summary>
 <p>
  
-* Install pytorch from official site only https://pytorch.org/ 
+* Only install pytorch from official site https://pytorch.org/ 
 
 * To fit your own OS and cuda, previous pytorch version found here https://pytorch.org/get-started/previous-versions/
  
