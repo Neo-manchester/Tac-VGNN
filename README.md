@@ -115,7 +115,7 @@ First step, configure anaconda environment:
 ```shell
 #create anaconda env
 conda create -n Tac-VGNN python==3.8
-conda create Tac-VGNN
+conda activate Tac-VGNN
 
 #change to your package location
 cd your_download_dir
